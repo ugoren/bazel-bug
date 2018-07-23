@@ -1,5 +1,5 @@
 # bazel-bug
-This is a reproduction of Bazel issue #5541.
+This is a reproduction of [Bazel issue #5541](https://github.com/bazelbuild/bazel/issues/5541).
 The problem is that virtual include directories are not cleaned.
 The result is the following sequence:
 - This repo builds successfully as-is.
